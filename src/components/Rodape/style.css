@@ -4,11 +4,12 @@ footer {
     flex-direction: column;
     align-items: center;
     color: black;
-    background-color: #F70A06;
+    background-color: #100301;
     padding: 20px;
     border-top: 2px solid white;
     gap: 20px;
     justify-content: space-around;
+    color: white;
 } 
 footer p {
     font-weight: 400;   

@@ -95,6 +95,7 @@ export const ListarFilmes = () => {
             key={filme.id}
             nome={filme.nome}
             produtora={filme.produtora}
+            capa={filme.capa}
           />
         ))}
       </div>
