@@ -1,0 +1,30 @@
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: #F70A06;
+    padding: 20px;
+    border-top: 2px solid white;
+    gap: 20px;
+    justify-content: space-around;
+} 
+footer p {
+    font-weight: 400;   
+}
+.creditos {
+    font-size: 0.8em;
+    font-weight: 300;
+    font-style: italic;
+}
+.texto-creditos {
+    max-width: 600px;
+    font-size: 0.6em;
+    text-align: center;
+}
+@media(max-width: 780px) {
+    footer{
+        text-align: center;
+    }
+}

@@ -1,0 +1,119 @@
+.container-principal {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.container-principal p {
+  max-width: 800px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+#container-filmes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 40px 0 40px 0;
+}
+
+#container-btn {
+  max-width: 500px;
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #e20805;
+  border-radius: 6px;
+}
+.container-principal h2 {
+  color: #e20805;
+  margin: 50px 0 50px 0;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px white;
+  font-weight: 500;
+  position: relative;
+}
+.container-principal h2::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100px;
+  height: 4px;
+  background-color: #feb633;
+  border-radius: 6px;
+}
+
+.container-principal p {
+  max-width: 500px;
+  color: #c8c8c8;
+  text-align: center;
+}
+
+#container-btn button {
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  border: none;
+  cursor: pointer;
+}
+
+#container-btn button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex: 1;
+}
+.container-input {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.container-input input {
+  background-color: #2e2e2e;
+  width: 300px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 6px;
+
+  color: antiquewhite;
+  text-align: center;
+}
+::placeholder {
+  color: aliceblue;
+}
+.container-input .lupa {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+@media  (max-width: 780px) {
+    .container-principal p {
+        padding: 10px;
+    }
+    .container-principal{
+        padding: 5px;
+    }
+    
+}

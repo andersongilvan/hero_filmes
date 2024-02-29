@@ -1,0 +1,20 @@
+header {
+    width: 100%;height: 100vh;
+    background-image: url(/public/background-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#topo h1{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    text-shadow: 5px 5px black;
+}
+#topo {
+    padding: 40px;
+}
