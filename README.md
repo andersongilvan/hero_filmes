@@ -1,6 +1,6 @@
 # Hero Filmes - Seu Destino Cinematográfico 🎬
 
-### Link: https://hero-filmes.vercel.app/
+### Link: [Hero Filmes](https://hero-filmes.vercel.app/)
 
 Bem-vindo ao Hero Filmes, o seu portal cinematográfico extraordinário! Este projeto foi desenvolvido com paixão e as mais recentes tecnologias web. 🚀
 
@@ -13,23 +13,27 @@ Bem-vindo ao Hero Filmes, o seu portal cinematográfico extraordinário! Este pr
 - **Eventos `onClick` e `onChange`:** Interatividade aprimorada para uma experiência de usuário mais envolvente.
 - **Componentização:** Estrutura modular para facilitar a manutenção e reutilização de código.
 
-## Visualizações do Site
+## Estrutura de Diretórios
 
-### Desktop
-
-[Desktop]![alt text](image-1.png)
-
-### Tablet
-
-![Tablet]![alt text](image-2.png)
-
-### Mobile
-
-![Mobile]![alt text](image.png)
-
-## Como Visualizar
-
-1. **Clone o Repositório:**
-   ```bash
-   git clone https://github.com/andersongilvan/hero_filmes
-   ```
+hero_filmes/
+│
+├── assets/ # Recursos estáticos como imagens, ícones, etc.
+│ ├── imagens/
+│ ├── icones/
+│ └── outros/
+│
+├── componentes/ # Componentes reutilizáveis da aplicação
+│ ├── Header/
+│ ├── Footer/
+│ ├── Carousel/
+│ └── ...
+│
+├── data/ # Dados estáticos da aplicação
+│ ├── filmes.json
+│ ├── atores.json
+│ └── ...
+│
+└── serviço/ # Lógica do serviço, comunicação com APIs, etc.
+├── api.js
+├── autenticacao.js
+└── ...
